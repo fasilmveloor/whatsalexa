@@ -1,2 +1,1 @@
-web: npm install
-web: node bot.js
+worker: node bot.js

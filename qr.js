@@ -16,8 +16,6 @@ async function whatsAsena () {
     const Session = new StringSession();  
     conn.logger.level = 'warn';
     conn.regenerateQRIntervalMs = 30000;
-    //console.log(process.env.LANGUAGE);
-    //console.log(process.env.ASENA_SESSION);
     conn.on('connecting', async () => {
         console.log(`${chalk.green.bold('Whats')}${chalk.blue.bold('Asena')}
 ${chalk.white.italic('AsenaString Kodu Alıcı')}
